@@ -1,0 +1,118 @@
+* {
+    background-color: #f7f7f7;
+    font-family: "Ubuntu Condensed";
+}
+
+.container {
+    border: 1px solid #1f7e9a;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+.breadcrumb li {
+    padding: 5px;
+}
+
+.headbox {
+    margin-top: 20px;
+    text-align: center;
+    color: #1f7e9a;
+}
+
+.navbar {
+    border: 1px solid #1f7e9a
+}
+
+.navbar .nav li {
+    font-size: 20px;
+}
+
+.navbar .nav li:hover {
+    background-color: #5cb85c;
+    display: block;
+    border-radius: 5px;
+}
+
+.navbar ul li:hover > ul {
+    display: block;
+    border-radius: 5px;
+}
+
+.navbar ul li:hover > ul li {
+    background-color: #5cb85c;
+}
+
+.row {
+    text-align: center
+}
+
+.footbox {
+    background-color: #8c8c8c;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+/*  syllabus.html + timetable.html */
+
+.block {
+    width: 50px;
+    font-size: 30px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    border: 1px solid #1f7e9a;
+    margin: 10px 10px 10px 20px;
+    border-radius: 5px;
+}
+
+.box2 {
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 350px;
+    height: auto;
+}
+
+.sidebar .Year input, .sidebar .Place input {
+    margin-bottom: 10px;
+    margin-right: 20px
+}
+
+.sidebar .Subjects input, .sidebar .Devices input {
+    margin-bottom: 10px;
+    margin-right: 20px
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 300px;
+        height: 150px;
+        display: block;
+        border: 1px solid #1f7e9a;
+        margin: 10px 10px 10px 70px;
+        border-radius: 5px;
+    }
+
+    .row {
+        margin-bottom: 30px;
+
+        /* faculty.html */
+
+    }
+
+    .facultybox {
+        width: 450px;
+        height: 200px;
+        display: block;
+        border: 1px solid #1f7e9a;
+        margin: 10px 10px 10px 70px;
+        border-radius: 5px;
+        text-align: left;
+
+    }
+}
